@@ -1,0 +1,17 @@
+@import "nullstyle.scss";
+$bg-color: #ffb114;
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 600px;
+	.title{
+		padding-top: 3%;
+		padding-bottom: 3%;
+		text-align:center;
+		font-size: 25px;
+		color: white;
+		background-color: $bg-color;
+	}
+}
