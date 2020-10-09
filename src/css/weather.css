@@ -1,0 +1,30 @@
+.weatherInfo__current {
+  text-align: center;
+  min-height: 400px;
+}
+.weatherInfo__main {
+  margin-top: 5%;
+  font-size: 50px;
+}
+.weatherInfo__minMax {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+.weatherInfo__minMax div {
+  margin: 0 7%;
+}
+.weatherInfo__name {
+  font-size: 20px;
+}
+.weatherInfo__forecast {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.weatherInfo__element {
+  border-left: 1px solid white;
+  padding-left: 1%;
+}

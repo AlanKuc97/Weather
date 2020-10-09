@@ -1,0 +1,29 @@
+.searchNav {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+}
+.searchNav__Bar {
+  width: 80%;
+}
+.searchNav__Bar--input {
+  width: 100%;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-left: 5px;
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+}
+.searchNav__button {
+  width: auto;
+  margin-left: 1%;
+}
+.searchNav__button--but {
+  width: 80px;
+  height: 35px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+}
