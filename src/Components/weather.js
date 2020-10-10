@@ -21,7 +21,7 @@ const Weather = props => {
           </div>
           <div className="weatherInfo__name">
             {props.weatherJSON.city ? (
-              <h2>{props.weatherJSON.city} {props.weatherJSON.country}</h2>
+              <div>{props.weatherJSON.city} {props.weatherJSON.country}</div>
             ) : null}
           </div>
         </div>

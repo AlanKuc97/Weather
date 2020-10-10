@@ -4,7 +4,7 @@
   justify-content: center;
 }
 .searchNav__Bar {
-  width: 80%;
+  width: 70%;
 }
 .searchNav__Bar--input {
   width: 100%;
@@ -16,7 +16,6 @@
   background: rgba(255, 255, 255, 0.3);
 }
 .searchNav__button {
-  width: auto;
   margin-left: 1%;
 }
 .searchNav__button--but {
@@ -26,4 +25,7 @@
   color: white;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.3);
+}
+.searchNav__button .currentLocation {
+  width: 150px;
 }
