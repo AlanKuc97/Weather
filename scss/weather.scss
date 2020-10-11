@@ -21,12 +21,17 @@
 		font-size: 20px;
 	}
 	&__forecast{
+		padding-top: 10px;
+		padding-bottom: 10px;
 		font-size: 20px;
 		display: flex;
 		justify-content:space-around;
+		background: rgba(0,0,0,0.8);
+		color: white;
+		border-radius: 15px;
 	}
 	&__element{
-		border-left: 1px solid white;
+		border-left: 2px solid black;
 		padding-left: 1%;
 	}
 }
