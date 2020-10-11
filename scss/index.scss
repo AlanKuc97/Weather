@@ -2,10 +2,11 @@
 
 body{
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  overflow:hidden;
 }
 .wrapper{
+  width: 70%;
 	margin: 0 auto;
-	width: 70%;
 	color: black;
 }
 

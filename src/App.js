@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './Components/header.js'
-import Content from './Components/content.js'
+import Header from './components/header.js'
+import Content from './components/content.js'
 function App() {
   return (
     <div className="wrapper">

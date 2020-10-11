@@ -41,3 +41,20 @@
 		}
 	}
 }
+@media(max-width:767px){
+	.searchNav{
+		display:block;
+		&__Bar{
+			width: 100%;
+		}
+		&__button{
+			display: inline-block;
+			width: 45%;
+			margin:5% 2.5% 0% 2.5%;
+			&--but, .currentLocation{
+				width: 100%;
+			}
+		}
+
+	}
+}

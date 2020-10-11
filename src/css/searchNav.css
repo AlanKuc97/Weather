@@ -41,3 +41,20 @@
 .searchNav__button .currentLocation {
   width: 150px;
 }
+
+@media (max-width: 767px) {
+  .searchNav {
+    display: block;
+  }
+  .searchNav__Bar {
+    width: 100%;
+  }
+  .searchNav__button {
+    display: inline-block;
+    width: 45%;
+    margin: 5% 2.5% 0% 2.5%;
+  }
+  .searchNav__button--but, .searchNav__button .currentLocation {
+    width: 100%;
+  }
+}
