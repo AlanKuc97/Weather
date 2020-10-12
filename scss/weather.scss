@@ -1,6 +1,5 @@
 .weatherInfo{	
 	&__current{
-		min-height: 400px;
 		text-align: center;
 	}
 	&__main{
@@ -22,6 +21,7 @@
 		margin-left: -20px;
 	}
 	&__forecast{
+		margin-top: 1%;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		font-size: 20px;
